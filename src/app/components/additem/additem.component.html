@@ -1,12 +1,16 @@
-<form action="">
+<form action=""(ngSubmit)="onSubmit()">
     <h2>Register new product</h2>
     <div>
-        <label for="">Name product</label>
-        <input type="text" name="title" id="" [(ngModel)] = "title"> {{title}}
+        <label for=""> Id product</label>
+        <input type="text" name="id" id="" [(ngModel)] = "id"> 
+    </div>
+    <div>
+        <label for=""> Name product</label>
+        <input type="text" name="title" id="" [(ngModel)] = "title"> 
     </div>
     <div>
         <label for="">Price</label>
-        <input type="text" name="price" id="" [(ngModel)] = "price">
+        <input type="text" name="price" id="" [(ngModel)] = "price"> 
     </div>
     <div>
         <label for="">quantity</label>
